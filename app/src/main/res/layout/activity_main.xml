@@ -8,6 +8,7 @@
     android:background="#212121"
     tools:context=".MainActivity">
 
+    <!-- Background Image -->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
@@ -15,12 +16,14 @@
         android:scaleType="centerCrop"
         android:layout_gravity="top" />
 
+    <!-- Overlay Dark Gradient -->
     <View
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:background="@drawable/gradient_overlay"
         android:layout_gravity="top" />
 
+    <!-- Profile Card -->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -54,6 +57,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
+    <!-- Notification Badge -->
     <TextView
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -66,6 +70,7 @@
         android:textStyle="bold"
         android:gravity="center" />
 
+    <!-- Bottom Sheet -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -97,6 +102,7 @@
             android:layout_margin="16dp" />
     </LinearLayout>
 
+    <!-- Floating Action Button -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
